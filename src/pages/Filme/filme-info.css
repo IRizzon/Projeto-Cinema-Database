@@ -1,0 +1,120 @@
+
+.filme-info{
+    margin-top: 10px;
+    display: flex;
+    max-width: 800px;
+    padding: 10px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    background-color: #011169;
+    border-radius: 10px;
+}
+
+.loading{
+    margin-top: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: #011169;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.altdor{
+    display: flex;
+    padding: 0 8px;
+}
+
+.filme-info h1{
+    margin: 10px;
+    color: #FFF;
+}
+
+.altdor img{
+    border-radius: 10px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: contain;
+}
+
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #FFF;
+    color: #011169;
+    border-radius: 10px;
+
+}
+
+.sinopse span{
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 20px;
+    word-break: keep-all;
+    text-align: justify;
+}
+
+.nota{
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 7px 12px;
+    background-color: #011169;
+    color: #FFF;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    border-radius: 5px;
+}
+
+.button button{
+    margin:10px;
+    width: 50%;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #011169;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button a{
+    margin:10px;
+    width: 50%;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #011169;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.button button:hover{
+    background-color: rgba(127, 236, 255, 0.719);
+    color:#FFF;
+}
+
+.button a:hover{
+    background-color: rgba(127, 236, 255, 0.719);
+    color:#FFF;
+}

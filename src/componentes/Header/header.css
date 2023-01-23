@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: #011169;
+}
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #00e1ff;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: -2px -1px 1px rgb(183, 135, 222), -4px -2px 2px rgb(57, 0, 150);
+}
+
+.favoritos{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFF;
+    padding: 7px 14px;
+    color: #000b47;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.favoritos:hover{
+    background-color: rgba(127, 236, 255, 0.719) ;
+    color:#FFF;
+}
